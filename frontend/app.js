@@ -1,8 +1,8 @@
-const tg = window.Telegram?.WebApp;
+const tg = window.Telegram.WebApp;
 
-if (tg) {
-  tg.expand();
-}
+tg.ready();
+tg.expand();
+
 
 const app = document.getElementById('app');
 
@@ -97,4 +97,5 @@ async function finish() {
 }
 
 startScreen();
+
 
