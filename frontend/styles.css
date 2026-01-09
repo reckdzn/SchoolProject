@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+}
+
+#app {
+  padding: 16px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 200px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  transition: transform .3s, opacity .3s;
+}
+
+.button {
+  background: #6c63ff;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+}
