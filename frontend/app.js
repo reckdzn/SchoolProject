@@ -24,7 +24,6 @@ function startScreen() {
 }
 
 async function start() {
-  alert('Кнопка нажалась!');
   const topic = topic.value;
   const grade = grade.value;
 
@@ -98,3 +97,4 @@ async function finish() {
 }
 
 startScreen();
+
